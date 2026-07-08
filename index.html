@@ -105,7 +105,7 @@
     background-image:
       linear-gradient(180deg, rgba(6,11,24,0.55) 0%, rgba(6,11,24,0.55) 40%, rgba(6,11,24,0.97) 96%),
       linear-gradient(100deg, rgba(6,11,24,0.9) 10%, rgba(6,11,24,0.15) 55%),
-      url('Hero1.png');
+      url('assests/Hero1.png');
     background-size:cover;background-position:top center;
     padding-bottom:80px;
   }
@@ -216,6 +216,98 @@
     .reveal{transition:none;opacity:1;transform:none;}
     #preloader .pl-name,#preloader .pl-tag{animation:none;opacity:1;}
   }
+
+@media (max-width: 768px) {
+
+  .wrap{
+    padding:0 20px;
+  }
+
+  nav .wrap{
+    height:60px;
+  }
+
+  header.hero{
+    min-height:100vh;
+    padding-top:90px;
+    padding-bottom:50px;
+    align-items:center;
+    background-position:center top;
+  }
+
+  .hero h1{
+    font-size:46px;
+    line-height:1.1;
+  }
+
+  .hero .role{
+    font-size:17px;
+    max-width:100%;
+  }
+
+  .hero-actions{
+    flex-direction:column;
+    gap:14px;
+  }
+
+  .hero-actions .btn{
+    width:100%;
+    justify-content:center;
+  }
+
+  section{
+    padding:70px 0;
+  }
+
+  .section-title{
+    margin-bottom:28px;
+  }
+
+  .about-grid{
+    gap:35px;
+  }
+
+  .project-head,
+  .exp-head{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .contact-links{
+    flex-direction:column;
+    align-items:stretch;
+  }
+
+  .contact-links a{
+    justify-content:center;
+  }
+
+}
+
+@media (max-width:480px){
+
+  .hero h1{
+    font-size:40px;
+  }
+
+  .eyebrow{
+    font-size:11px;
+    letter-spacing:2px;
+  }
+
+  .hero .role{
+    font-size:16px;
+  }
+
+  .btn{
+    padding:15px;
+  }
+
+  .section-title{
+    font-size:30px;
+  }
+
+}
 </style>
 </head>
 <body class="locked">
